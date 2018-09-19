@@ -130,3 +130,7 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# For the dataset
+*.npz
+*.gz
