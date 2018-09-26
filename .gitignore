@@ -134,3 +134,4 @@ Temporary Items
 # For the dataset
 *.npz
 *.gz
+geometric-deep-learning/fmnet/files
