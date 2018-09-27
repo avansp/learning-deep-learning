@@ -10,4 +10,4 @@ A collection of Jupyter notebooks of diverse deep learning examples.
 
 ## Geometric deep learning
 
-* [Deep Functional Maps (prediction)](geometric-deep-learning/fmnet/FMNet_Prediction.ipynb)
+* [Predict local correspondences on 3D objects wµith FMNet](geometric-deep-learning/fmnet/FMNet_Prediction.ipynb)
