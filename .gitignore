@@ -135,3 +135,4 @@ Temporary Items
 *.npz
 *.gz
 geometric-deep-learning/fmnet/files
+datasets/imdb/imdb_word_index.json

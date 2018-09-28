@@ -6,8 +6,31 @@ import os
 import gzip
 import numpy as np
 from tensorflow.python.keras.utils.data_utils import get_file
+import json
 
 from .. import imdb as ds
+
+def load_word_index():
+    """Load the word index to convert back from numeric to text from the IMDB dataset.
+    
+    Returns: 
+        The word index dictionary.
+    """
+    
+    # check for download
+    data_file = os.path.join(ds.__path__[0], 'imdb_word_index.json')
+    if not os.path.exists(data_file):
+        print("Downloading file to {}".format(data_file))
+        get_file(
+            fname = data_file,
+            origin = 'https://storage.googleapis.com/tensorflow/tf-keras-datasets/imdb_word_index.json',
+            file_hash = 'bfafd718b763782e994055a2d397834f'
+        )
+        
+    # load the file
+    with open(data_file, 'rt') as f:
+        return json.load(f)
+    
 
 def load(
     num_words=None,
