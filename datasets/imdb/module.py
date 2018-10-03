@@ -31,6 +31,17 @@ def load_word_index():
     with open(data_file, 'rt') as f:
         return json.load(f)
     
+def get_rev_word_index(word_dict = None):
+    """Returns a reserved word dictionary where key = index and value = word.
+    
+    Returns:
+        Reverse index dictionary.
+    """
+    
+    if word_dict is None:
+        word_dict = load_word_index()
+    
+    return dict([(value, key) for (key, value) in word_dict.items()])
 
 def load(
     num_words=None,
