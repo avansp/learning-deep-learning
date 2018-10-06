@@ -7,7 +7,7 @@ A collection of Jupyter notebooks of diverse deep learning examples.
 
 * [Simple image classification (FashionMNIST)](hello-worlds/01_ImageClassification.ipynb)
 * [Simple linear regression (Boston Housing Price)](hello-worlds/02_Regression.ipynb)
-* [Simple text classification (IMDB)](hellow-worlds/03_TextClassification.ipynb)
+* [Simple text classification (IMDB)](hello-worlds/03_TextClassification.ipynb)
 
 ## Geometric deep learning
 
