@@ -13,3 +13,7 @@ A collection of Jupyter notebooks of diverse deep learning examples.
 ## Geometric deep learning
 
 * [Predict local correspondences on 3D objects with FMNet](geometric-deep-learning/fmnet/FMNet_Prediction.ipynb)
+
+## Deeper topics
+
+* [Dropout as Regularization and Bayesian Approximation](https://xuwd11.github.io/Dropout_Tutorial_in_PyTorch/)
